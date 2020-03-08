@@ -1,0 +1,48 @@
+﻿## Interface: 20400
+## Title: Recount
+## Notes: Records Damage and Healing for Graph Based Display
+## Title-zhCN: |CFF80FF80团队|R 伤害统计 Recount
+## Notes-zhCN: 伤害/治疗技能的统计插件,可以统计个人和团队.|N|CFF0099FF需要基础函数库|R
+## Title-zhTW: |CFF80FF80團隊|R 傷害統計 Recount
+## Notes-zhTW: 傷害/治療技能的統計插件,可以統計個人和團隊.|N|CFF0099FF需要基礎函式庫|R
+## X-Repple: 团队
+## DefaultState: Disabled
+## Author: Cryect, ported to 2.4 by Elsia
+## OptionalDeps:  Ace3, LibSharedMedia-3.0, LibBabble-Class-3.0, LibGraph-2.0
+## SavedVariables: RecountDB
+## SavedVariablesPerCharacter: RecountPerCharDB
+## X-Category: Combat
+## X-Embeds: Ace3, LibSharedMedia-3.0, LibBabble-Class-3.0, LibGraph-2.0
+
+embeds.xml
+
+locales\Recount-enUS.lua
+locales\Recount-zhTW.lua
+locales\Recount-zhCN.lua
+
+Recount.lua
+
+Fonts.lua
+colors.lua
+Widgets.lua
+WindowOrder.lua
+
+Fights.lua
+pets.lua
+Recount_Modes.lua
+Tracker.lua
+healbuffs.lua
+roster.lua
+LazySync.lua
+deletion.lua
+zonefilters.lua
+debug.lua
+
+GUI_Main.lua
+GUI_Detail.lua
+GUI_DeathGraph.lua
+GUI_Graph.lua
+GUI_Reset.lua
+GUI_Report.lua
+GUI_Config.lua
+GUI_Realtime.lua

@@ -1,0 +1,64 @@
+## Interface: 20400
+## Title: iLib
+## Notes: Ace libs of Repple.
+## Title-zhCN: |cff7fff7fAce Libs|R
+## Notes-zhCN: 插件基础函数库|N|CFFFF0000必须加载|R
+## Title-zhTW: |cff7fff7fAce Libs|R
+## Notes-zhTW: 插件基礎函式庫|N|CFFFF0000必須載入|R
+## X-Repple: 函数库
+## Website: http://www.wowace.com
+
+LibStub\LibStub.lua
+Aces\LibSink-2.0\lib.xml
+
+Ace3\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Ace3\AceAddon-3.0\AceAddon-3.0.xml
+Ace3\AceEvent-3.0\AceEvent-3.0.xml
+Ace3\AceTimer-3.0\AceTimer-3.0.xml
+Ace3\AceBucket-3.0\AceBucket-3.0.xml
+Ace3\AceHook-3.0\AceHook-3.0.xml
+Ace3\AceDB-3.0\AceDB-3.0.xml
+Ace3\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Ace3\AceLocale-3.0\AceLocale-3.0.xml
+Ace3\AceConsole-3.0\AceConsole-3.0.xml
+Ace3\AceGUI-3.0\AceGUI-3.0.xml
+Ace3\AceConfig-3.0\AceConfig-3.0.xml
+Ace3\AceComm-3.0\AceComm-3.0.xml
+Ace3\AceTab-3.0\AceTab-3.0.xml
+Ace3\AceSerializer-3.0\AceSerializer-3.0.xml
+
+Ace3\Ace3.lua
+
+Ace2\AceLibrary\AceLibrary.lua
+Ace2\AceOO-2.0\AceOO-2.0.lua
+
+Ace2\AceEvent-2.0\AceEvent-2.0.lua
+Ace2\AceHook-2.1\AceHook-2.1.lua
+Ace2\AceDB-2.0\AceDB-2.0.lua
+Ace2\AceDebug-2.0\AceDebug-2.0.lua
+Ace2\AceLocale-2.2\AceLocale-2.2.lua
+Ace2\AceTab-2.0\AceTab-2.0.lua
+Ace2\AceConsole-2.0\AceConsole-2.0.lua
+Ace2\AceComm-2.0\AceComm-2.0.lua
+Ace2\AceAddon-2.0\AceAddon-2.0.lua
+Ace2\AceModuleCore-2.0\AceModuleCore-2.0.lua
+
+Aces\Deformat-2.0\Deformat-2.0.lua
+Aces\Gratuity-2.0\Gratuity-2.0.lua
+
+LibBabble\LibBabble-Boss-3.0\lib.xml
+LibBabble\LibBabble-Class-3.0\lib.xml
+LibBabble\LibBabble-Zone-3.0\lib.xml
+LibBabble\LibBabble-Faction-3.0\lib.xml
+LibBabble\LibBabble-Inventory-3.0\lib.xml
+
+Aces\TipHooker-1.0\TipHooker-1.0.lua
+Aces\Dewdrop-2.0\Dewdrop-2.0.lua
+Aces\Tablet-2.0\Tablet-2.0.lua
+Aces\FuBarPlugin-2.0\FuBarPlugin-2.0.lua
+Aces\Roster-2.1\Roster-2.1.lua
+Aces\LibSharedMedia-2.0\LibSharedMedia-2.0.lua
+Aces\LibSharedMedia-3.0\lib.xml
+Aces\Waterfall-1.0\Waterfall-1.0.lua
+
+Aces\UTF8\utf8.lua

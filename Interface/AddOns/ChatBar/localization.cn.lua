@@ -1,0 +1,65 @@
+--------------------------------------------------
+-- localization.lua (chinese simple)
+--------------------------------------------------
+if ( GetLocale() == "zhCN" ) then
+
+CHATBAR_SAY_ABRV		= "说";
+CHATBAR_YELL_ABRV		= "喊";
+CHATBAR_PARTY_ABRV		= "队";
+CHATBAR_RAID_ABRV		= "团";
+CHATBAR_RAID_WARNING_ABRV	= "警";
+CHATBAR_BATTLEGROUND_ABRV	= "战";
+CHATBAR_GUILD_ABRV		= "会";
+CHATBAR_OFFICER_ABRV	= "官";
+CHATBAR_WHISPER_ABRV	= "密";
+CHATBAR_EMOTE_ABRV		= "表";
+
+CHATBAR_MENU_MAIN_TITLE 			= "ChatBar 选项";
+CHATBAR_MENU_MAIN_VERTICAL 			= "垂直方向";
+CHATBAR_MENU_MAIN_REVERSE 			= "颠倒按钮方向";
+CHATBAR_MENU_MAIN_ALTART 			= "使用Alternate Artwork(换肤)";
+CHATBAR_MENU_MAIN_TEXTONBUTTONS	 	= "文本在按钮上";
+CHATBAR_MENU_MAIN_SHOWTEXT 			= "显示按钮文本";
+CHATBAR_MENU_MAIN_CHANNELID 		= "在按钮上使用频道ID";
+CHATBAR_MENU_MAIN_BUTTONFLASHING	= "按钮信息闪烁";
+CHATBAR_MENU_MAIN_BARBORDER 		= "显示条边框";
+CHATBAR_MENU_MAIN_ADDONCHANNELS 	= "隐藏插件频道";
+CHATBAR_MENU_MAIN_HIDEALL			= "隐藏所有按钮";
+CHATBAR_MENU_MAIN_HIDDENBUTTONS		= "隐藏按钮";
+CHATBAR_MENU_MAIN_RESET			 	= "重置位置";
+CHATBAR_MENU_MAIN_REORDER			= "频道重新排序";
+CHATBAR_MENU_MAIN_REQCHRONOS			= "恢复常用频道";
+
+CHATBAR_MENU_CHANNEL_LEAVE			= "离开";
+CHATBAR_MENU_CHANNEL_LIST			= "显示频道使用者列表";
+CHATBAR_MENU_HIDE_BUTTON			= "隐藏 \"%s\" 按钮";
+CHATBAR_MENU_WHISPER_REPLY			= "回复";
+CHATBAR_MENU_WHISPER_RETELL			= "重讲";
+CHATBAR_MENU_CHANNEL_STICKY			= "依附频道";
+CHATBAR_MENU_STICKY				= "依附";
+
+CHATBAR_MENU_SHOW_BUTTON			= "显示 \"%s\" 按钮";
+
+CHATBAR_REORDER_START = "频道正被重置...";
+CHATBAR_REORDER_END = "频道重置完成。";
+CHATBAR_REORDER_FLIGHT_FAIL = "当飞行的时候你不能重置频道。";
+
+-- Capital Cities
+CHATBAR_SHATRATH		= "沙塔斯城";
+CHATBAR_EXODAR			= "埃索达";
+CHATBAR_SILVERMOON		= "银月城";
+CHATBAR_DALARAN			= "达拉然";
+CHATBAR_ORGRIMMAR		= "奥格瑞玛";
+CHATBAR_STORMWIND		= "暴风城";
+CHATBAR_IRONFORGE		= "铁炉堡";
+CHATBAR_DARNASSUS		= "达纳苏斯";
+CHATBAR_UNDERCITY		= "幽暗城";
+CHATBAR_THUNDERBLUFF		= "雷霆崖";
+
+CHATBAR_GENERAL			= "综合";
+CHATBAR_TRADE			= "交易";
+CHATBAR_LFG			= "寻求组队";
+CHATBAR_LOCALDEFENSE		= "本地防务";
+CHATBAR_WORLDDEFENSE		= "世界防务";
+CHATBAR_GUILDRECRUITMENT	= "公会招寡";
+end

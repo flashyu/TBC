@@ -1,0 +1,4 @@
+MACRO 2 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] 解除诅咒;  [target=mouseover,exists,mod:ctrl] 驱毒术; [target=mouseover,exists,mod:shift] 解除诅咒
+END

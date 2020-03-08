@@ -1,0 +1,32 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Actionscript - Stormspire"] = "Actionscript - Stormspire",
+	},
+	["profiles"] = {
+		["Actionscript - Stormspire"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 97.66778564453125,
+					["x"] = -665.6790924072266,
+					["w"] = 305.4869384765625,
+					["h"] = 183.7586212158203,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 305.4869384765625,
+			["MainWindowHeight"] = 183.7586364746094,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

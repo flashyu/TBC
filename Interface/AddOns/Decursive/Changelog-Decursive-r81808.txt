@@ -1,0 +1,60 @@
+------------------------------------------------------------------------
+r81808 | StingerSoft | 2008-09-17 12:43:50 -0400 (Wed, 17 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/Decursive/localization.ru.lua
+
+Decursive: update ruRU (fix typo)
+------------------------------------------------------------------------
+r81758 | archarodim | 2008-09-15 20:15:19 -0400 (Mon, 15 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/Decursive
+
+Decursive:  Change log template to be compatible with git
+------------------------------------------------------------------------
+r81757 | archarodim | 2008-09-15 19:46:10 -0400 (Mon, 15 Sep 2008) | 2 lines
+Changed paths:
+   M /trunk/Decursive/Decursive.toc
+
+Decursive:
+- version to 2.2.1
+------------------------------------------------------------------------
+r81756 | archarodim | 2008-09-15 18:48:59 -0400 (Mon, 15 Sep 2008) | 2 lines
+Changed paths:
+   M /trunk/Decursive/Dcr_utils.lua
+
+Decursive:
+- Fix pet name formatting function
+------------------------------------------------------------------------
+r81755 | archarodim | 2008-09-15 18:25:13 -0400 (Mon, 15 Sep 2008) | 3 lines
+Changed paths:
+   M /trunk/Decursive/DCR_init.lua
+   M /trunk/Decursive/Dcr_DebuffsFrame.lua
+   M /trunk/Decursive/Dcr_Events.lua
+   M /trunk/Decursive/Dcr_LiveList.lua
+   M /trunk/Decursive/Dcr_Raid.lua
+   M /trunk/Decursive/Dcr_opt.lua
+   M /trunk/Decursive/Dcr_utils.lua
+   M /trunk/Decursive/Decursive.lua
+   M /trunk/Decursive/Todo.txt
+
+Decursive:
+- If you focused a player of your raid group, Decursive would miss debuff events concerning this unit until a group refresh occurred.
+- Code cleanup (a lot more to come soon)
+------------------------------------------------------------------------
+r81160 | archarodim | 2008-08-31 04:54:26 -0400 (Sun, 31 Aug 2008) | 1 line
+Changed paths:
+   M /trunk/Decursive/Decursive.toc
+   M /trunk/Decursive/QuoiDeNeuf.txt
+   M /trunk/Decursive/WhatsNew.txt
+
+Decursive: Changed version to 2.2.0
+------------------------------------------------------------------------
+r80594 | archarodim | 2008-08-17 18:57:30 -0400 (Sun, 17 Aug 2008) | 2 lines
+Changed paths:
+   M /trunk/Decursive
+   M /trunk/Decursive/Decursive.toc
+   M /trunk/Decursive/embeds.xml
+
+Decursive:
+- Removed LibStub
+------------------------------------------------------------------------

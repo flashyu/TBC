@@ -1,0 +1,23 @@
+## Interface: 20400
+## Title: MailTo
+## Author: Vincent
+## Notes: Mail management and tracking.
+## Notes-deDE: Mail Liste f槀 das Empf\195\164nger Feld
+## Notes-frFR: Liste de contacts pour le courier, apparait dans le champs A:
+## Title-zhCN: 邮件助手 MailTo
+## Title-zhTW: 郵件助手 MailTo
+## Notes-zhTW: 讓你可以儲存多個收件人名稱。
+## X-SixDemonBag: 界面|背包
+## OptionalDeps: CmdHelp, CharacterProfiler
+## Dependencies: 
+## SavedVariables: MailTo_List, MailTo_Log, MailTo_Sendee, MailTo_Inbox, MailTo_Mail, MailTo_Option
+## SavedVariablesPerCharacter: MailTo_ReceivedLog, Mailable_FilterList
+localization.lua
+localization.cn.lua
+localization.tw.lua
+MailTo.xml
+MailTo.lua
+Mailable.lua
+
+OpenAll.lua
+# 批量收取邮件

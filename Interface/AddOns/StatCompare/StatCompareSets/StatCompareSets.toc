@@ -1,0 +1,9 @@
+## Interface: 20400
+## Title: StatCompareSets v2.0.014
+## Title-zhCN: |CFFFF8000物品|R 属性统计Sets
+## Notes: Sets for different equipments
+## Notes-zhCN: 装备属性套装集合
+## Author: lasthime @ 幻物梵天 艾森纳
+## Dependencies: StatCompare
+## OptionalDeps: StatCompareChar
+StatCompareSets.xml

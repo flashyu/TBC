@@ -1,0 +1,14 @@
+## Interface: 20400
+## Title: ChatBar
+## Version: 2.2
+## Title-zhCN: 聊天条 ChatBar
+## Title-zhTW: 聊天條 ChatBar
+## Title-deDE: Chat-Leiste
+## Notes: Button Bar for openning chat messages of each type.
+## Notes-zhCN: 提供按钮来快速使用频道等功能。
+## Notes-zhTW: 提供按鈕來快速使用頻道等功能。
+## X-SixDemonBag: 界面|背包
+## Author: AnduinLothar 汉化制作：chana_zh
+## OptionalDeps: 
+## SavedVariablesPerCharacter: ChatBar_VerticalDisplay, ChatBar_AlternateOrientation, ChatBar_HideSpecialChannels, ChatBar_TextOnButtonDisplay, ChatBar_ButtonFlashing, ChatBar_BarBorder, ChatBar_ButtonText, ChatBar_StoredStickies, ChatBar_HiddenButtons, ChatBar_TextChannelNumbers, ChatBar_HideAllButtons, ChatBar_AltArt
+ChatBar.xml

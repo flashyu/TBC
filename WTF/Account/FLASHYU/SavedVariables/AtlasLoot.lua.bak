@@ -1,0 +1,18 @@
+
+AtlasLootOptions = nil
+AtlasLootFuDB = {
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}
+AtlasLootDB = {
+	["profiles"] = {
+		["Default"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "40604",
+		},
+	},
+}

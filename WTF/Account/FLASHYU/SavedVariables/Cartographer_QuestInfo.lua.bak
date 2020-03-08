@@ -1,0 +1,2 @@
+
+Cartographer_QuestInfoDB = nil

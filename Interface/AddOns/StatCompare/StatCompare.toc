@@ -1,0 +1,32 @@
+﻿## Interface: 20400
+## Title: Character Status Compare
+## Notes: Compare your equipments bonus of all status with other players.
+## Title-zhCN: |CFFFF8000界面|R 装备属性
+## Notes-zhCN: 显示角色装备提供的属性奖励，并可以与其他玩家对比。
+## X-Repple: 界面
+## Version: 3.0.004.2
+## Author: slashboy @ 九藜方舟 Dreamland  yyslash@gmail.com / lasthime @ 幻物梵天 艾森纳 
+## SavedVariables: StatCompare_SaveVar, StatCompare_Info
+## SavedVariablesPerCharacter: StatCompare_Player
+Localization_zhCN.lua
+Localization_zhTW.lua
+Localization_enUS.lua
+Localization.lua
+SCOptions.lua
+StatModifer.lua
+StatScanner.lua
+StatCompare.lua
+StatCompare.xml
+
+StatCompareBuff\Localization_enUS.lua
+StatCompareBuff\Localization_zhCN.lua
+StatCompareBuff\Localization_zhTW.lua
+StatCompareBuff\Localization.lua
+StatCompareBuff\BuffScanner.lua
+
+StatCompareChar\CharStats.lua
+
+StatCompareSets\StatCompareSets.xml
+
+StatCompareUI\Localization.lua
+StatCompareUI\SCOptions.xml

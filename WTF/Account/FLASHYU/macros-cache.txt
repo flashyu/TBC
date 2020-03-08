@@ -1,0 +1,5 @@
+MACRO 1 "治疗之触" Spell_Nature_HealingTouch
+#治疗之触
+/stopcasting
+/cast [modifier:shift] 治疗之触; 治疗之触(等级 4)
+END

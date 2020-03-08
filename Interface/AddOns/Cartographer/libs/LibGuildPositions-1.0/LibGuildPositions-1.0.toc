@@ -1,0 +1,14 @@
+## Interface: 20400
+## LoadOnDemand: 1
+## Title: Lib: GuildPositions-1.0
+## Notes: Communicates with guild members for their positions on the world map
+## Author: ckknight
+## X-eMail: ckknight@gmail.com
+## Version: 1.0
+## X-Category: Library
+## X-License: LGPL v2.1
+## OptionalDeps: ChatThrottleLib
+
+LibStub\LibStub.lua
+CallbackHandler-1.0\CallbackHandler-1.0.lua
+lib.xml

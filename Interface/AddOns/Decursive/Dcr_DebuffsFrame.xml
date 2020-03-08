@@ -1,0 +1,145 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+    <!--
+    Decursive (v 2.0) add-on for World of Warcraft UI
+    Copyright (C) 2006-2007 John Wellesz (Archarodim) ( http://www.2072productions.com/?to=decursive.php )
+    This is the continued work of the original Decursive (v1.9.4) by Quu
+    Decursive 1.9.4 is in public domain ( www.quutar.com )
+
+    License:
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License
+    as published by the Free Software Foundation; either version 2
+    of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+    -->
+    <Script>
+
+	if not DcrLoadedFiles or not DcrLoadedFiles["Dcr_DebuffsFrame.lua"] then
+	    if not DcrCorrupted then message("Decursive installation is corrupted! (Dcr_DebuffsFrame.lua not loaded)"); end;
+	    DcrCorrupted = true;
+	    return;
+	end
+
+	Dcr:SetDateAndRevision("$Date: 2008-04-09 18:53:55 -0400 (Wed, 09 Apr 2008) $", "$Revision: 68827 $");
+    </Script>
+
+    <Frame name="DcrMUFsContainer" frameStrata="MEDIUM" toplevel="true" enableMouse="true" movable="true" hidden="true" parent="UIParent">
+	<Size>
+	    <AbsDimension x="20" y="20" />
+	</Size>
+	<Anchors>
+	    <Anchor point="CENTER" relativePoint="CENTER">
+		<Offset>
+		    <AbsDimension x="200" y="250"/>
+		</Offset>
+	    </Anchor>
+	</Anchors>
+	<Scripts>
+	    <OnLoad>
+		this.UpdateYourself = true;
+		this.MaxUnit = 5;
+		this.UnitShown = 0;
+	    </OnLoad>
+	</Scripts>
+	<Frames>
+	    <Button name="DragButton">
+		<Size>
+		    <AbsDimension x="20" y="20" />
+		</Size>
+		<Anchors>
+		    <Anchor point="TOPLEFT">
+			<Offset>
+			    <AbsDimension x="0" y="0"/>
+			</Offset>
+		    </Anchor>
+		</Anchors>
+		<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD" />
+		<!--<HighlightTexture file="Interface\Buttons\ButtonHilight-Square" alphaMode="ADD" /> -->
+		<!--<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD"/> -->
+
+		<Scripts>
+		    <OnMouseUp>
+			Dcr.MicroUnitF:SavePos();
+			if ( this.isMoving ) then
+			this:GetParent():StopMovingOrSizing();
+			this.isMoving = false;
+			end
+		    </OnMouseUp>
+		    <OnMouseDown>
+			if (   arg1 == "LeftButton" and IsAltKeyDown() ) then
+			this:GetParent():StartMoving();
+			this.isMoving = true;
+			else
+			Dcr.MicroUnitF:OnCornerClick(arg1, this);
+			end
+
+		    </OnMouseDown>
+		    <OnHide>
+			if ( this.isMoving ) then
+			this:GetParent():StopMovingOrSizing();
+			this.isMoving = false;
+			end
+		    </OnHide>
+		    <OnEnter>
+			Dcr.MicroUnitF:OnCornerEnter();
+		    </OnEnter>
+		    <OnLeave>
+			if (Dcr.profile.DebuffsFrameShowHelp) then
+			GameTooltip:Hide();
+			end;
+		    </OnLeave>
+		</Scripts>
+	    </Button>
+	</Frames>
+    </Frame>
+
+    <!-- Templates -->
+    <Button name="DcrMicroUnitTemplateSecure" inherits="SecureUnitButtonTemplate" virtual="true">
+	<Size>
+	    <AbsDimension x="20" y="20"/>
+	</Size>
+
+	<Scripts>
+	    <OnLoad>
+		Dcr.MicroUnitF:OnLoad();
+	    </OnLoad>
+	    <OnEnter>
+		Dcr.MicroUnitF:OnEnter();
+	    </OnEnter>
+	    <OnLeave>
+		Dcr.MicroUnitF:OnLeave();
+	    </OnLeave>
+	</Scripts>
+    </Button>
+
+
+    <FontString name="DcrMicroUnitChronoFont" inherits="NumberFontNormalSmall" maxLines="1" text=" " virtual="true"> <!-- {{{ -->
+	<Anchors>
+	    <Anchor point="CENTER" relativePoint="CENTER" relativeTo="$parent">
+		<Offset>
+		    <AbsDimension x="1" y="-1"/>
+		</Offset>
+	    </Anchor>
+	</Anchors>
+	<Color r="0.5" g="0.1" b="0.2" a="0.6"/>
+	<Shadow>
+	    <offset>
+		<AbsDimension x="0.3" y="0.3" />
+	    </offset>
+	    <color r="0" g="0" b="0" />
+	</Shadow>
+    </FontString> <!-- }}} -->
+
+
+    <Script>
+	DcrLoadedFiles["Dcr_DebuffsFrame.xml"] = true;
+    </Script>
+</Ui>

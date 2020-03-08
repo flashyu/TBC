@@ -1,0 +1,2 @@
+
+DcrCharDB = nil

@@ -1,0 +1,38 @@
+﻿## Interface: 20400
+## Title: Cartographer [|cffeda55fQuestInfo|r]
+## Notes: Quest library for mob location and other information
+## Title-zhCN: |CFFFF8000地图|R 任务查询
+## Notes-zhCN: 制图大师的配件，提供任务资料库
+## Title-zhTW: |CFFFF8000地圖|R 任務資訊
+## Notes-zhTW: 製圖大師模組，提供任務資料庫功能
+## X-Repple: 地图
+## Author: lahow (aka purple@bahamut)
+## SavedVariables: Cartographer_QuestInfoDB
+## X-Category: Map
+## X-eMail: lahow DOT studio AT gmail DOT com
+## X-Embeds: LibQuixote-2.0, LibGratuity-3.0
+## RequiredDeps: Cartographer
+## OptionalDeps: Cartographer_Notes, Cartographer_Quests, Cartographer_QuestObjectives, LibQuixote-2.0, LibGratuity-3.0
+
+embeds.xml
+
+Data\Quest.lua
+Data\NPC.lua
+Data\Zone.lua
+Data\Name-zhTW.lua
+Data\Name-zhCN.lua
+Data\Name-enUS.lua
+
+Locale\Locale-enUS.lua
+Locale\Locale-zhTW.lua
+Locale\Locale-zhCN.lua
+
+Core.lua
+Export.lua
+Map.lua
+LocationFrame.lua
+SeriesFrame.lua
+QuestFuPatch.lua
+QuestLogPatch.lua
+
+Buttons.xml

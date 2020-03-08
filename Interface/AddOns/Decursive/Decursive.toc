@@ -1,0 +1,61 @@
+﻿## Interface: 20400
+
+## Title: Decursive |cff7fff7f -Ace2-|r
+## Notes: Affliction display and cleaning for solo, group and raids with advanced filtering and priority system.
+## Title-zhCN: |CFF80FF80团队|R 一键驱散
+## Notes-zhCN: 提供显示和清除负面效果的功能，并提供相应的高级过滤和优先级系统|N|CFF0099FF需要基础函数库|R
+## X-Repple: 团队
+## DefaultState: disabled
+## LoadOnDemand: 1
+
+## SavedVariablesPerCharacter: DcrCharDB
+## SavedVariables: DcrDB
+
+## Version: 2.2.1
+## Author: Archarodim
+
+## X-License: GNU GPL
+
+## OptionalDeps: Ace2, LibBabble-Class-3.0, DewdropLib, Waterfall-1.0, TabletLib, FuBarPlugin-2.0
+## X-Embeds: Ace2, LibBabble-Class-3.0, LibStub, DewdropLib, Waterfall-1.0, TabletLib, FuBarPlugin-2.0
+
+## X-ReleaseDate: "$Date: 2008-09-15 19:46:10 -0400 (Mon, 15 Sep 2008) $"
+## X-Website: http://www.2072productions.com/?to=decursive.php
+## X-Credits: Sylvin (Full french translation), Peter Sun (ZhTW translation), Fenlis (koKR translation)
+
+## X-RelSite-WoWI: 4937
+## X-RelSite-Curse: 3011
+## X-RelSite-UI.WoW: 2506
+## X-AceForum: 4328
+
+## X-eMail: archarodim@teaser.fr
+## X-Donate: PayPal:archarodim@teaser.fr
+
+
+embeds.xml
+
+Dcr_DIAG.lua
+DCR_init.lua
+Dcr_utils.lua
+
+localization.lua
+localization.tw.lua
+localization.cn.lua
+
+Dcr_opt.lua
+Dcr_Events.lua
+
+Dcr_Raid.lua
+
+Decursive.lua
+Decursive.xml
+
+Dcr_lists.lua
+Dcr_lists.xml
+
+Dcr_DebuffsFrame.lua
+Dcr_DebuffsFrame.xml
+
+Dcr_LiveList.lua
+Dcr_LiveList.xml
+

@@ -1,0 +1,1173 @@
+------------------------------------------------------------------------
+r73989 | StiviS | 2008-05-15 14:06:43 -0400 (Thu, 15 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : 
+- esES updated
+------------------------------------------------------------------------
+r73939 | toadkiller | 2008-05-15 05:37:33 -0400 (Thu, 15 May 2008) | 9 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-esMX.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-itIT.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- First cut of Shuffle (<Button>/Shuffle):
+--- It shuffles consumable items for a particular button during combat.
+--- If you move items around on it, you may need to click twice to actually get something to click on in the click spot of your bag.
+--- This version does not yet care about cooldown or location or anything other than Blizzard API saying it is usable.
+-- Drop out of Move Buttons mode at start of combat.
+-- Right click on buttons to change their settings during Move Buttons mode
+-- Added the less verbose Log Events debug setting.
+
+------------------------------------------------------------------------
+r73931 | toadkiller | 2008-05-15 03:55:12 -0400 (Thu, 15 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/libs
+
+AutoBar : 
+-- Switch to LibBabble-Zone-3.0
+------------------------------------------------------------------------
+r73912 | toadkiller | 2008-05-15 00:13:51 -0400 (Thu, 15 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+
+AutoBar : 
+-- Fix stonard portal + reagent counts for new teleports and portals
+
+------------------------------------------------------------------------
+r73864 | toadkiller | 2008-05-14 15:35:26 -0400 (Wed, 14 May 2008) | 8 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarSearch.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+
+AutoBar : 
+-- Consolidate UpdateUsable code for both button types.
+-- Obey Category location settings for usable display
+-- ZONE_CHANGED_NEW_AREA: Add 2 second update delay for sorted because Zone info is not available when ZONE_CHANGED_NEW_AREA fires.  Wtf is the point of firing it?
+-- Location specific items should now work.  For example Nethergon Energy.
+-- Brewfest Brew 33929
+-- Don Carlos Tequila 28284
+
+------------------------------------------------------------------------
+r73778 | toadkiller | 2008-05-13 22:20:33 -0400 (Tue, 13 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+
+AutoBar : 
+-- Add new telports (left click) and Portals (right click)
+------------------------------------------------------------------------
+r73726 | toadkiller | 2008-05-13 15:18:49 -0400 (Tue, 13 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+
+AutoBar : 
+-- Save ButtonFacade Colors
+------------------------------------------------------------------------
+r73677 | StiviS | 2008-05-13 06:42:46 -0400 (Tue, 13 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : 
+- esES updated
+------------------------------------------------------------------------
+r73665 | toadkiller | 2008-05-13 04:23:39 -0400 (Tue, 13 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-esMX.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-itIT.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- Add shuffle translations ahead of time
+------------------------------------------------------------------------
+r73664 | toadkiller | 2008-05-13 04:17:36 -0400 (Tue, 13 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+
+AutoBar : 
+-- Fix tooltip error during Move the Buttons
+------------------------------------------------------------------------
+r73576 | StiviS | 2008-05-12 07:05:16 -0400 (Mon, 12 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : 
+- esES updated
+------------------------------------------------------------------------
+r73558 | toadkiller | 2008-05-12 05:18:15 -0400 (Mon, 12 May 2008) | 7 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-esMX.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-itIT.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- Use button Name not key for Add Button
+-- Start switching to LibStickyFrames-2.0
+-- Internationalize {star} & {skull} used in Rotation Drums Button
+-- Arrange on use for spells and macros.  Issue with not showing regular items when mixed with spells in a category remains.
+-- Fix outlining issue when clicking on popups.  Introduce equipped green border scaling issue instead.
+
+------------------------------------------------------------------------
+r73528 | toadkiller | 2008-05-11 22:13:54 -0400 (Sun, 11 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/libs
+
+AutoBar : 
+-- Start switching to LibStickyFrames-2.0
+------------------------------------------------------------------------
+r73357 | toadkiller | 2008-05-10 15:39:35 -0400 (Sat, 10 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarSearch.lua
+   M /trunk/AutoBar/ChangeList.lua
+
+AutoBar : 
+-- Add option to disable conjure button and right click conjure on food and water.  Empty food & empty water will still conjure.
+
+------------------------------------------------------------------------
+r73347 | toadkiller | 2008-05-10 14:36:00 -0400 (Sat, 10 May 2008) | 4 lines
+Changed paths:
+   M /trunk/AutoBar/embeds.xml
+
+AutoBar : 
+AutoBar : 
+-- Re-add AceLocale-2.2
+
+------------------------------------------------------------------------
+r73345 | toadkiller | 2008-05-10 14:29:25 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/libs
+
+AutoBar : 
+-- Readd AceLocale-2.2
+------------------------------------------------------------------------
+r73292 | toadkiller | 2008-05-10 05:29:29 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/libs
+
+AutoBar : 
+-- Actually remove AceLocale-2.2.lua
+------------------------------------------------------------------------
+r73291 | toadkiller | 2008-05-10 05:27:58 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/embeds.xml
+
+AutoBar : 
+-- Actually remove AceLocale-2.2.lua
+------------------------------------------------------------------------
+r73289 | toadkiller | 2008-05-10 05:22:55 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Fix right click during Move Bars mode.
+------------------------------------------------------------------------
+r73281 | toadkiller | 2008-05-10 01:19:01 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/libs
+
+AutoBar : 
+-- Please please please add all these to the zip u dumb script.
+------------------------------------------------------------------------
+r73280 | toadkiller | 2008-05-10 01:12:50 -0400 (Sat, 10 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/ChangeList.lua
+
+AutoBar : 
+-- New PT3.1 File for AutoBar.  It loads subsets of Misc, Gear and Tradeskill.
+
+------------------------------------------------------------------------
+r73278 | toadkiller | 2008-05-10 00:52:11 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/embeds.xml
+
+AutoBar : 
+-- Split Consumables out of AutoBar.
+------------------------------------------------------------------------
+r73275 | toadkiller | 2008-05-10 00:27:45 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/libs
+
+AutoBar : 
+-- Split Consumables out of AutoBar.
+------------------------------------------------------------------------
+r73255 | toadkiller | 2008-05-09 20:12:54 -0400 (Fri, 09 May 2008) | 4 lines
+Changed paths:
+   M /trunk/AutoBar/embeds.xml
+   M /trunk/AutoBar/libs
+
+AutoBar : 
+AutoBar : 
+Switch to single AutoBar specific PT3.1 file for a savings of about 400k
+
+------------------------------------------------------------------------
+r73240 | toadkiller | 2008-05-09 17:05:57 -0400 (Fri, 09 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+
+AutoBar : 
+-- Give Move Bars coloring precedence over Move Buttons
+------------------------------------------------------------------------
+r73235 | toadkiller | 2008-05-09 16:37:35 -0400 (Fri, 09 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+
+AutoBar : 
+-- Fix drag frames when Moving Bars
+
+------------------------------------------------------------------------
+r73227 | toadkiller | 2008-05-09 14:38:38 -0400 (Fri, 09 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Only generate the top level options by default.  Generate full options only when opening gui or drop down list.  Saves about 500k of memory when not changing options.
+
+------------------------------------------------------------------------
+r73181 | toadkiller | 2008-05-09 02:38:20 -0400 (Fri, 09 May 2008) | 3 lines
+Changed paths:
+   A /trunk/AutoBar/Locale-itIT.lua
+
+AutoBar : 
+-- itIT: Mostly a clone of frFR since it doesnt have bogus escape sequences in it.  Needs actual translation
+
+------------------------------------------------------------------------
+r73158 | toadkiller | 2008-05-08 20:45:54 -0400 (Thu, 08 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarFuBar.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Expose the hide attribute of a Bar.  This is what gets toggled on when you are in Move Buttons mode and click a bar from green to red.
+
+------------------------------------------------------------------------
+r73059 | toadkiller | 2008-05-08 01:10:32 -0400 (Thu, 08 May 2008) | 6 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+
+AutoBar : 
+-- frFR: Upgraded some escaped characters to the actual ones.
+-- Allow Drum Rotation button to be disabled again.
+-- Implement gloss & background hiding / showing for popups.
+-- 33079 Murloc Costume
+
+------------------------------------------------------------------------
+r73007 | toadkiller | 2008-05-07 14:49:51 -0400 (Wed, 07 May 2008) | 4 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+
+AutoBar : 
+-- Actually set popupHeader frame to DIALOG, dont just talk about doing it.
+-- Adjust bar FrameStrata immediately
+
+------------------------------------------------------------------------
+r72939 | StiviS | 2008-05-07 02:52:32 -0400 (Wed, 07 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : 
+- esES updated
+------------------------------------------------------------------------
+r72932 | toadkiller | 2008-05-07 00:49:10 -0400 (Wed, 07 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassButton.lua
+
+AutoBar : 
+-- Less alpha for the blue spell borders
+------------------------------------------------------------------------
+r72927 | scorpio0920 | 2008-05-06 22:19:37 -0400 (Tue, 06 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar:
+- Update zhTW localization.
+------------------------------------------------------------------------
+r72922 | sayclub | 2008-05-06 21:50:55 -0400 (Tue, 06 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-koKR.lua
+
+AutoBar : 
+- koKR Update.
+------------------------------------------------------------------------
+r72902 | toadkiller | 2008-05-06 18:30:25 -0400 (Tue, 06 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-esMX.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- Added settings to announce Drum Rotation to Say, Party, Raid
+
+------------------------------------------------------------------------
+r72875 | toadkiller | 2008-05-06 13:59:48 -0400 (Tue, 06 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+
+AutoBar : 
+-- Allow skinning changes from the Bar settings.
+
+------------------------------------------------------------------------
+r72841 | StiviS | 2008-05-06 05:21:19 -0400 (Tue, 06 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : 
+- esES updated
+------------------------------------------------------------------------
+r72832 | toadkiller | 2008-05-06 02:39:02 -0400 (Tue, 06 May 2008) | 8 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-esMX.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+   D /trunk/AutoBar/Style.lua
+
+AutoBar : 
+-- 2.04.01.51 beta ()
+-- Switch to ButtonFacade.  This completely drops cyCircled support for AutoBar.
+-- Include the ButtonFacade and associated skin you like.  Use the ButtonFacade interface to set the skin, including DreamLayout.
+-- If you still use cyCircled for other mods you will need to update to r7825+.
+-- Dump Style.lua, add ButtonFacade as optional dependency.
+
+
+------------------------------------------------------------------------
+r72766 | StiviS | 2008-05-05 13:02:21 -0400 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-esMX.lua
+
+AutoBar : 
+- esES & esMX: converted escape codes to utf16. (Toadkiller i have a macro to make this)
+------------------------------------------------------------------------
+r72757 | toadkiller | 2008-05-05 11:57:02 -0400 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   A /trunk/AutoBar/Locale-esMX.lua
+
+AutoBar : 
+-- esMX.  Well whatever, someone else can figure out how to change from lame escape codes to utf16 or whatever.
+------------------------------------------------------------------------
+r72756 | toadkiller | 2008-05-05 11:53:03 -0400 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   D /trunk/AutoBar/Locale-esMX.lua
+
+AutoBar : 
+gah, switch from plain type
+------------------------------------------------------------------------
+r72754 | toadkiller | 2008-05-05 11:50:34 -0400 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   A /trunk/AutoBar/Locale-esMX.lua
+
+AutoBar : 
+-- esMX locale file, cloned from esES
+------------------------------------------------------------------------
+r72705 | toadkiller | 2008-05-05 01:04:38 -0400 (Mon, 05 May 2008) | 4 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/AutoBarSearch.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- New Macro button for Category Items to create a Custom Macro item, first cut
+-- Editable Name and macro text field.
+
+------------------------------------------------------------------------
+r72681 | toadkiller | 2008-05-04 16:58:56 -0400 (Sun, 04 May 2008) | 6 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/AutoBarSearch.lua
+   M /trunk/AutoBar/ChangeList.lua
+
+AutoBar : 
+-- 2.04.01.50 beta ()
+-- Fix custom category keys & upgrade incorrect ones
+-- Fix Category renaming
+-- Implement dragging Blizzard macros to a Custom Category
+
+------------------------------------------------------------------------
+r72598 | StiviS | 2008-05-04 02:42:23 -0400 (Sun, 04 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : 
+- esES updated
+------------------------------------------------------------------------
+r72596 | scorpio0920 | 2008-05-04 02:24:23 -0400 (Sun, 04 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar:
+- Update zhCN localization.
+- Update zhTW localization.
+------------------------------------------------------------------------
+r72590 | StiviS | 2008-05-04 01:01:10 -0400 (Sun, 04 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : 
+- esES updated
+------------------------------------------------------------------------
+r72562 | toadkiller | 2008-05-03 16:39:23 -0400 (Sat, 03 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+
+AutoBar : 
+-- Tarkumi: fix for right click spell tooltip.
+
+------------------------------------------------------------------------
+r72549 | toadkiller | 2008-05-03 14:05:31 -0400 (Sat, 03 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Update Button Category name when changed.
+
+------------------------------------------------------------------------
+r72541 | toadkiller | 2008-05-03 13:24:03 -0400 (Sat, 03 May 2008) | 5 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- Consumable.Buff Type.Both -> Consumable.Buff Type.Flask
+-- Change clumsy and ambiguous "Buff: Both Battle and Guardian Elixir" to "Buff: Flask"
+-- All hail bobbyblade who found the crash wow error: Using "|" in a string followed by numbers is bad M'Kay.
+
+------------------------------------------------------------------------
+r72498 | scorpio0920 | 2008-05-03 01:49:39 -0400 (Sat, 03 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar:
+- Update zhCN localization.
+- Update zhTW localization.
+------------------------------------------------------------------------
+r72480 | toadkiller | 2008-05-02 19:56:08 -0400 (Fri, 02 May 2008) | 6 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- 2.04.01.49 beta ()
+-- Add warning for unknown PT3.1 sets
+-- Add tooltip if right clicking will cast a spell
+-- Trinket2 now equips correctly.  Still has cosmetic issues.
+
+------------------------------------------------------------------------
+r72427 | toadkiller | 2008-05-02 11:20:09 -0400 (Fri, 02 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+
+AutoBar : 
+-- Remove spellEyeOfKilrogg, spellSummonImp from spells with reagents list
+
+------------------------------------------------------------------------
+r72331 | toadkiller | 2008-05-01 12:15:03 -0400 (Thu, 01 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassBar.lua
+
+AutoBar : 
+-- Cancel Fade while hovering over popups as well.
+
+------------------------------------------------------------------------
+r72330 | StiviS | 2008-05-01 12:14:51 -0400 (Thu, 01 May 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : 
+- esES updated
+------------------------------------------------------------------------
+r72326 | toadkiller | 2008-05-01 11:20:37 -0400 (Thu, 01 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Do not allow empty string for custom names, nor double quote or period
+
+------------------------------------------------------------------------
+r72282 | toadkiller | 2008-05-01 01:13:38 -0400 (Thu, 01 May 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/ChangeList.lua
+
+AutoBar : 
+-- Clean up icon texture code.  This should solve the empty button issue in at least some cases.
+
+------------------------------------------------------------------------
+r72255 | toadkiller | 2008-04-30 18:58:22 -0400 (Wed, 30 Apr 2008) | 6 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/AutoBarSearch.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+
+AutoBar : 
+-- For quantity over 99 show * in the count
+-- Only show one count if left & right click spell is the same.
+-- Delete drag handle icons
+-- New underlying architecture for Macros.  Convert Macro buttons to use it.
+
+------------------------------------------------------------------------
+r72213 | toadkiller | 2008-04-30 15:21:22 -0400 (Wed, 30 Apr 2008) | 2 lines
+Changed paths:
+   D /trunk/AutoBar/Art
+
+AutoBar : 
+-- Delete drag handle icons
+------------------------------------------------------------------------
+r72173 | StiviS | 2008-04-30 06:12:52 -0400 (Wed, 30 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : 
+- esES updated
+------------------------------------------------------------------------
+r72155 | scorpio0920 | 2008-04-30 01:48:37 -0400 (Wed, 30 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar:
+- Update zhTW localization.
+------------------------------------------------------------------------
+r72146 | toadkiller | 2008-04-29 19:30:32 -0400 (Tue, 29 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarDB.lua
+
+AutoBar : 
+-- AutoBarDB.lua:1203: attempt to index local 'barDB' (a nil value) fix
+------------------------------------------------------------------------
+r72029 | toadkiller | 2008-04-29 00:51:05 -0400 (Tue, 29 Apr 2008) | 5 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/Core.lua
+   M /trunk/AutoBar/Style.lua
+
+AutoBar : 
+-- Fix some code necrosis
+-- The left click spell + the right click spell counts are split into <left click spell count>/<right click spell count>
+-- AutoBarButton.lua:1481: attempt to concatenate local 'itemName' fixed
+
+------------------------------------------------------------------------
+r71981 | toadkiller | 2008-04-28 14:25:49 -0400 (Mon, 28 Apr 2008) | 7 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/AutoBarSearch.lua
+   M /trunk/AutoBar/Bindings.xml
+   M /trunk/AutoBar/Core.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- GameTooltip:SetOwner(self, "ANCHOR_PRESERVE").  Perhaps this will clear up tooltip position issues?
+-- WaterfallDragLink support for built in macros, rip out LibBabbleSpell, fix icons for items, spells and macros.
+-- Dump the obsolete category rearrange code.
+-- Drag & drop of built in macros to a custom category
+-- AutoBarButtonRotationDrums: this is the first cut at it.
+
+------------------------------------------------------------------------
+r71922 | toadkiller | 2008-04-28 05:27:40 -0400 (Mon, 28 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+
+AutoBar : 
+-- Add some of the Warlock reagent counts
+------------------------------------------------------------------------
+r71913 | toadkiller | 2008-04-28 04:47:03 -0400 (Mon, 28 Apr 2008) | 4 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/Core.lua
+
+AutoBar : 
+-- Reagent counts for select spells.  Specifically did not do the 5 million soulshard spells of warlocks, nor rogue poisons.
+-- The left click spell + the right click spell counts are split into <left click spell count>/<right click spell count>
+
+------------------------------------------------------------------------
+r71858 | toadkiller | 2008-04-27 20:07:12 -0400 (Sun, 27 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+   M /trunk/AutoBar/ChangeList.lua
+
+AutoBar : 
+rev release #
+------------------------------------------------------------------------
+r71857 | toadkiller | 2008-04-27 20:04:52 -0400 (Sun, 27 Apr 2008) | 22 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/Bindings.xml
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- 2.04.01.48 beta ()
+-- Remove Armor & WeaponSmith Popups
+-- Fix bad global reference barPositionDBList -> AutoBar.barPositionDBList
+-- Fix hitRectPadding for negative padding values
+-- Increase minimum hitRectPadding to 4
+-- Bar frame padding >= 0 only
+-- Added holy water code to combat the undead zombie buttons that kept returning after removal.
+-- Fix Tracking button
+-- Fix removal of Buttons from disabled Bar
+-- Fix spellCrusaderAura, _, spellCrusaderAuraIcon = GetSpellInfo(32223)
+-- Fix Button Delete and Remove using layout instead of buttons share.
+-- Fix crash when enabling a bar during Move mode.
+-- Fix Travel Form case for outland and in combat to use Cheeta and not Flight Form
+-- Consumable.Cooldown.Drums
+-- Fix some PT3.1 out of sync sets
+-- AutoBarButtonCooldownDrums drums, nets, other drum cooldown stuff
+-- Upgrade Remove and Delete Button description text
+-- Add Babble-Zone-2.2 dependency to toc
+-- Make ClampedToScreen an AutoBar option.  Requires reload to take effect / disable for now. Default is false.
+-- Add specific cancel fadeout in combat setting
+
+------------------------------------------------------------------------
+r71741 | toadkiller | 2008-04-27 05:04:56 -0400 (Sun, 27 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+
+AutoBar : 
+-- Fix Travel Form case for outland and in combat to use Cheeta and not Flight Form
+
+------------------------------------------------------------------------
+r71738 | toadkiller | 2008-04-27 04:52:19 -0400 (Sun, 27 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+
+AutoBar : 
+-- Fix crash when enabling a bar during Move mode.
+
+------------------------------------------------------------------------
+r71736 | toadkiller | 2008-04-27 04:37:03 -0400 (Sun, 27 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Fix Button Delete and Remove using layout instead of buttons share.
+
+------------------------------------------------------------------------
+r71726 | toadkiller | 2008-04-27 03:36:26 -0400 (Sun, 27 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+
+AutoBar : 
+-- Fix spellCrusaderAura, _, spellCrusaderAuraIcon = GetSpellInfo(32223)
+
+------------------------------------------------------------------------
+r71690 | toadkiller | 2008-04-26 19:50:46 -0400 (Sat, 26 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Fix removal of Buttons from disabled Bar
+
+------------------------------------------------------------------------
+r71688 | toadkiller | 2008-04-26 19:35:37 -0400 (Sat, 26 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+
+AutoBar : 
+-- Fix Tracking button
+
+------------------------------------------------------------------------
+r71675 | toadkiller | 2008-04-26 17:26:47 -0400 (Sat, 26 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Remove Button now correctly clears its placement barKey so it doesnt get replaced on relog.
+
+------------------------------------------------------------------------
+r71674 | toadkiller | 2008-04-26 17:07:39 -0400 (Sat, 26 Apr 2008) | 6 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassBar.lua
+
+AutoBar : 
+-- Remove Armor & WeaponSmith Popups
+-- Fix bad global reference barPositionDBList -> AutoBar.barPositionDBList
+-- Fix hitRectPadding for negative padding values
+-- Increase minimum hitRectPadding to 4
+
+------------------------------------------------------------------------
+r71664 | toadkiller | 2008-04-26 15:17:19 -0400 (Sat, 26 Apr 2008) | 7 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- Add option to show tooltips in combat.  Requires showTooltips to be set.
+-- ButtonPaste can no longer duplicate buttons in cross bar drags.
+-- Added code to remove duplicate buttons due to sharing changes or dragging from class to account bars.
+-- Syncronize Button's placement info with actual placement
+-- Fix default Tracking Button icon
+
+------------------------------------------------------------------------
+r71631 | scorpio0920 | 2008-04-26 09:27:50 -0400 (Sat, 26 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar:
+- Update zhTW localization.
+------------------------------------------------------------------------
+r71529 | StiviS | 2008-04-25 16:07:38 -0400 (Fri, 25 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : esES updated
+------------------------------------------------------------------------
+r71514 | toadkiller | 2008-04-25 15:29:08 -0400 (Fri, 25 Apr 2008) | 5 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarClassBar.lua
+
+AutoBar : 
+-- Bar.frame:SetClampedToScreen(true).  This should prevent Bars from getting scaled or moved offscreen.
+-- Popups now have the same padding as the bar.  HitRectInsets adjusted to compensate.
+-- Adjust for padding on bars.  Bars with padding will now have buttons centered inside them with padding space around the buttons (Move Bar mode illustrates this).
+
+------------------------------------------------------------------------
+r71499 | toadkiller | 2008-04-25 14:32:52 -0400 (Fri, 25 Apr 2008) | 4 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- Add FadeOut Time and FadeOut Alpha
+-- Increase fadeOut update frequency
+
+------------------------------------------------------------------------
+r71475 | toadkiller | 2008-04-25 12:17:41 -0400 (Fri, 25 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+
+AutoBar : 
+-- spellRitualOfSouls, _, spellRitualOfSoulsIcon = GetSpellInfo(29893) fixed
+
+------------------------------------------------------------------------
+r71471 | toadkiller | 2008-04-25 11:26:06 -0400 (Fri, 25 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+
+AutoBar : 
+-- spellSummonFelsteed = GetSpellInfo(5784)
+
+------------------------------------------------------------------------
+r71454 | toadkiller | 2008-04-25 10:20:27 -0400 (Fri, 25 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/ChangeList.lua
+
+AutoBar : 
+-- Dragging to bar drop spot now appends button instead of putting it into position 1
+
+------------------------------------------------------------------------
+r71377 | toadkiller | 2008-04-24 20:45:14 -0400 (Thu, 24 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+
+AutoBar : 
+-Remove LibBabbleSpell dependency
+------------------------------------------------------------------------
+r71297 | scorpio0920 | 2008-04-24 14:57:51 -0400 (Thu, 24 Apr 2008) | 5 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar:
+- Update zhTW localization.
+- Removed duplicate string in Locale-enUS.lua
+ - ["FadeOut Cancels on XXX"]
+ - ["FadeOut is cancelled when holding down the XXX key."]
+------------------------------------------------------------------------
+r71285 | toadkiller | 2008-04-24 14:01:06 -0400 (Thu, 24 Apr 2008) | 6 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+   M /trunk/AutoBar/embeds.xml
+
+AutoBar : 
+-- Switch to GetSpellInfo based spell handling: name, rank, icon, cost, isFunnel, powerType, castTime, minRange, maxRange = GetSpellInfo(spellId or spellName or spellLink)
+-- Rip out LibBabble-Spell-3.0
+-- GameTooltip_ShowCompareItem() added for item links in tooltip
+-- Initial work on custom attributes for Buttons
+
+------------------------------------------------------------------------
+r71284 | toadkiller | 2008-04-24 14:00:24 -0400 (Thu, 24 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/libs
+
+AutoBar : 
+- Rip out LibBabble-Spell-3.0
+------------------------------------------------------------------------
+r71069 | toadkiller | 2008-04-23 07:52:55 -0400 (Wed, 23 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+   M /trunk/AutoBar/Style.lua
+
+AutoBar : 
+-- Fix broken AutoBar:GetSharedBarDB(barKey, sharedVar) function.  Inspired by Thorlin.
+
+------------------------------------------------------------------------
+r71058 | toadkiller | 2008-04-23 06:24:57 -0400 (Wed, 23 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Fix locale issue with custom categories and spells.  Thanks to StiviS.
+
+------------------------------------------------------------------------
+r71038 | toadkiller | 2008-04-23 04:26:46 -0400 (Wed, 23 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassButton.lua
+
+AutoBar : 
+-- Bring back green border for equipped items
+
+------------------------------------------------------------------------
+r71035 | toadkiller | 2008-04-23 04:03:58 -0400 (Wed, 23 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/ChangeList.lua
+
+AutoBar : 
+-- lanatha: Switch all of AutoBarButton to SpellInfo
+
+------------------------------------------------------------------------
+r70936 | scorpio0920 | 2008-04-22 13:54:39 -0400 (Tue, 22 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar:
+- Update zhCN and zhTW localization.
+------------------------------------------------------------------------
+r70919 | StiviS | 2008-04-22 09:41:40 -0400 (Tue, 22 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : esES updated
+------------------------------------------------------------------------
+r70911 | StiviS | 2008-04-22 08:56:27 -0400 (Tue, 22 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/AutoBar/Locale-esES.lua
+
+AutoBar : esES updated
+------------------------------------------------------------------------
+r70827 | toadkiller | 2008-04-21 23:30:05 -0400 (Mon, 21 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarCategory.lua
+
+AutoBar : 
+-- Fix texture path
+------------------------------------------------------------------------
+r70815 | toadkiller | 2008-04-21 20:27:29 -0400 (Mon, 21 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar : 
+-- Add individual Ctrl, Alt, Shift settings to cancel fadeout with.
+
+------------------------------------------------------------------------
+r70811 | toadkiller | 2008-04-21 20:02:49 -0400 (Mon, 21 Apr 2008) | 4 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   M /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/AutoBarSearch.lua
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+
+AutoBar : 
+-- Switch texture code from BabbleSpell to GetSpellInfo
+-- Allow dropping of spells onto a Button with a custom category in Move Button mode.
+
+------------------------------------------------------------------------
+r70775 | toadkiller | 2008-04-21 16:04:22 -0400 (Mon, 21 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+
+AutoBar : 
+-- Add SetInventoryItem("player", slot) to item tooltip code to handle equipped stuff
+
+------------------------------------------------------------------------
+r70718 | toadkiller | 2008-04-21 06:14:48 -0400 (Mon, 21 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Fix rename of Custom Buttons from the Bar Button List.
+
+------------------------------------------------------------------------
+r70717 | scorpio0920 | 2008-04-21 06:00:54 -0400 (Mon, 21 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-zhTW.lua
+
+AutoBar:
+- Update zhTW localization. (Need to decorate)
+------------------------------------------------------------------------
+r70706 | toadkiller | 2008-04-21 04:13:24 -0400 (Mon, 21 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarOptions.lua
+
+AutoBar : 
+-- Remove reset options till they are implemented.
+
+------------------------------------------------------------------------
+r70704 | toadkiller | 2008-04-21 03:37:01 -0400 (Mon, 21 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarClassButton.lua
+
+AutoBar : 
+-- Fix cooldown for spells not showing up
+
+------------------------------------------------------------------------
+r70699 | sayclub | 2008-04-21 03:05:37 -0400 (Mon, 21 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/AutoBar/Locale-koKR.lua
+
+AutoBar : 
+- koKR Update
+------------------------------------------------------------------------
+r70697 | toadkiller | 2008-04-21 02:52:41 -0400 (Mon, 21 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarSearch.lua
+
+AutoBar : 
+-- Fix the tooltip for charged items to show charges on first found item (item that will be used on click).
+
+------------------------------------------------------------------------
+r70685 | toadkiller | 2008-04-21 00:16:18 -0400 (Mon, 21 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoBar/libs
+
+AutoBar : 
+-- 2.04.01.44 beta
+
+------------------------------------------------------------------------
+r70684 | toadkiller | 2008-04-21 00:14:08 -0400 (Mon, 21 Apr 2008) | 5 lines
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+   M /trunk/AutoBar/AutoBarButton.lua
+   M /trunk/AutoBar/AutoBarCategory.lua
+   M /trunk/AutoBar/AutoBarClassBar.lua
+   M /trunk/AutoBar/AutoBarClassButton.lua
+   M /trunk/AutoBar/AutoBarClassPopupButton.lua
+   A /trunk/AutoBar/AutoBarDB.lua
+   M /trunk/AutoBar/AutoBarFuBar.lua
+   M /trunk/AutoBar/AutoBarOptions.lua
+   M /trunk/AutoBar/AutoBarSearch.lua
+   M /trunk/AutoBar/Bindings.xml
+   M /trunk/AutoBar/ChangeList.lua
+   M /trunk/AutoBar/Core.lua
+   M /trunk/AutoBar/Locale-deDE.lua
+   M /trunk/AutoBar/Locale-enUS.lua
+   M /trunk/AutoBar/Locale-esES.lua
+   M /trunk/AutoBar/Locale-frFR.lua
+   M /trunk/AutoBar/Locale-koKR.lua
+   M /trunk/AutoBar/Locale-zhCN.lua
+   M /trunk/AutoBar/Locale-zhTW.lua
+   M /trunk/AutoBar/Style.lua
+
+AutoBar : 
+-- 2.04.01.44 beta
+-- Update Button & Bar's shared sections, as well as the unplaced Button list before creating options.  This avoids possible corrupting double placement of buttons.
+-- Only set Offhand Weapon Buff Button to enabled on creation.
+
+------------------------------------------------------------------------
+r70028 | pb_ee1 | 2008-04-16 06:10:48 -0400 (Wed, 16 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/AutoBar/AutoBar.toc
+
+AutoBar : TOC Update.
+------------------------------------------------------------------------

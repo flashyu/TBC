@@ -1,0 +1,19 @@
+
+MailTo_List = {
+	["Stormspire"] = {
+	},
+}
+MailTo_Log = {
+}
+MailTo_Sendee = {
+}
+MailTo_Inbox = {
+	["Stormspire"] = {
+	},
+}
+MailTo_Mail = {
+	["Stormspire"] = {
+	},
+}
+MailTo_Option = {
+}

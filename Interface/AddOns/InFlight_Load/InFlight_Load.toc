@@ -1,0 +1,17 @@
+﻿## Interface: 20400
+## Title: InFlight_Load
+## Notes: Loader for InFlight
+## Title-zhCN: |CFFFF8000辅助|R 飞行点显示
+## Notes-zhCN: 显示各地飞行点
+## Title-zhTW: |CFFFF8000輔助|R 飛行點顯示
+## Notes-zhTW: InFlight 的載入器，自動載入預設的 Cartographer 飛行管理員圖示。
+## X-Repple: 辅助
+## Author: TotalPackage
+## Version: 2.4.013
+## X-Website: http://www.wowace.com/wiki/InFlight
+
+## SavedVariables: InFlightCartoDB
+## OptionalDeps: Cartographer, Cartographer_Notes
+## X-Category: Interface Enhancements
+
+InFlight_Load.lua

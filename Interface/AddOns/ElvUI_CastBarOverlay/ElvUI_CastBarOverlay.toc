@@ -1,0 +1,11 @@
+## Interface: 20400
+## Author: Blazeflack
+## Version: 1.04
+## Title: |cff00b30bE|r|cffC4C4C4lvUI|r |cff00b30bC|r|cffC4C4C4ast|cff00b30bB|r|cffC4C4C4ar|r |cff00b30bO|r|cffC4C4C4verlay|r
+## Notes: Allows you to overlay castbars on other frames.
+## RequiredDeps: ElvUI
+## OptionalDeps: ElvUI_CastBarSnap
+
+Locales\Load_Locales.xml
+Config\Load_Config.xml
+ElvUI_CastBarOverlay.lua

@@ -1,0 +1,207 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Actionscript - Stormspire"] = "Actionscript - Stormspire",
+	},
+	["gold"] = {
+		["Stormspire"] = {
+			["Actionscript"] = 177874,
+		},
+	},
+	["class"] = {
+		["Stormspire"] = {
+			["Actionscript"] = "DRUID",
+		},
+	},
+	["global"] = {
+		["uiScale"] = "0.79999995231628",
+		["classCache"] = {
+			["Stormspire"] = {
+				["Actionscript"] = "DRUID",
+			},
+		},
+		["nameplates"] = {
+			["filters"] = {
+				["Boss"] = {
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Actionscript - Stormspire"] = {
+			["general"] = {
+				["valuecolor"] = {
+					["b"] = 0.819,
+					["g"] = 0.513,
+					["r"] = 0.09,
+				},
+			},
+			["chat"] = {
+				["panelWidthRight"] = 400,
+				["panelColorConverted"] = true,
+			},
+			["layoutSet"] = "healer",
+			["CBO"] = {
+				["player"] = {
+					["overlay"] = false,
+				},
+				["pet"] = {
+					["overlayOnFrame"] = "HEALTH",
+				},
+			},
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMLEFT,733,450",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1196",
+				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,270",
+				["ElvUF_RaidMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMLEFT,733,450",
+				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,310,432",
+				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,132",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-278,132",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,176",
+				["ElvUF_PartyMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMLEFT,733,450",
+				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-312,4",
+				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,312,4",
+				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,278,132",
+			},
+			["unitframe"] = {
+				["fontSize"] = 11,
+				["units"] = {
+					["pet"] = {
+						["castbar"] = {
+							["width"] = 128.8889770507813,
+							["height"] = 28.33332633972168,
+						},
+					},
+					["target"] = {
+						["castbar"] = {
+							["width"] = 268.8888854980469,
+							["height"] = 8.888889312744141,
+						},
+					},
+					["party"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 16,
+							["xOffset"] = -4,
+							["yOffset"] = -7,
+							["anchorPoint"] = "TOPRIGHT",
+						},
+						["GPSArrow"] = {
+							["size"] = 40,
+						},
+						["healPrediction"] = true,
+						["name"] = {
+							["position"] = "TOP",
+							["text_format"] = "[namecolor][name:short]",
+						},
+						["height"] = 45,
+						["verticalSpacing"] = 9,
+						["horizontalSpacing"] = 9,
+						["growthDirection"] = "LEFT_UP",
+						["power"] = {
+							["text_format"] = "",
+						},
+						["width"] = 80,
+						["health"] = {
+							["frequentUpdates"] = true,
+							["position"] = "BOTTOM",
+							["text_format"] = "[healthcolor][health:deficit]",
+						},
+						["buffs"] = {
+							["xOffset"] = 50,
+							["yOffset"] = -6,
+							["clickThrough"] = true,
+							["perrow"] = 1,
+							["sizeOverride"] = 22,
+							["enable"] = true,
+						},
+					},
+					["raid40"] = {
+						["healPrediction"] = true,
+						["height"] = 30,
+						["growthDirection"] = "LEFT_UP",
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["raid"] = {
+						["debuffs"] = {
+							["xOffset"] = -4,
+							["yOffset"] = -7,
+							["anchorPoint"] = "TOPRIGHT",
+							["sizeOverride"] = 16,
+							["enable"] = true,
+						},
+						["healPrediction"] = true,
+						["height"] = 45,
+						["verticalSpacing"] = 9,
+						["horizontalSpacing"] = 9,
+						["rdebuffs"] = {
+							["enable"] = false,
+						},
+						["growthDirection"] = "LEFT_UP",
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["buffs"] = {
+							["xOffset"] = 50,
+							["yOffset"] = -6,
+							["clickThrough"] = true,
+							["perrow"] = 1,
+							["sizeOverride"] = 22,
+							["enable"] = true,
+						},
+					},
+					["focus"] = {
+						["castbar"] = {
+							["width"] = 188.8888397216797,
+							["height"] = 6.111111164093018,
+						},
+					},
+					["player"] = {
+						["castbar"] = {
+							["insideInfoPanel"] = false,
+							["width"] = 411.1111111111111,
+							["height"] = 28,
+						},
+					},
+				},
+			},
+			["datatexts"] = {
+				["panels"] = {
+					["LeftChatDataPanel"] = {
+						["right"] = "Haste",
+						["left"] = "Spell/Heal Power",
+					},
+				},
+			},
+			["actionbar"] = {
+				["bar3"] = {
+					["buttons"] = 12,
+				},
+				["bar2"] = {
+					["enabled"] = true,
+				},
+				["bar5"] = {
+					["buttons"] = 12,
+				},
+				["bar4"] = {
+					["enabled"] = false,
+				},
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Actionscript - Stormspire"] = "Actionscript - Stormspire",
+	},
+	["profiles"] = {
+		["Actionscript - Stormspire"] = {
+			["theme"] = "classic",
+			["install_complete"] = "1.49",
+		},
+	},
+}
+GAME_LOCALE = nil

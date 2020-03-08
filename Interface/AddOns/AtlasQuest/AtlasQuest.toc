@@ -1,0 +1,26 @@
+﻿## Interface: 20400
+## Title: AtlasQuest
+## Notes: Shows the Quests for the instance.
+## Title-zhCN: |CFFFF8000地图|R 副本任务
+## Notes-zhCN: 在Atlas插件上显示副本相关的任务，攻略等.
+## X-Repple: 地图
+## Author: Thandrenn
+## Original Author: Asurn
+## Updated by: Loather
+## Updated by: Rabidmax
+## Updated by: Thandrenn (aka Mystery8)
+## CLI by: Dazerdude
+## Version: 4.1.2
+## X-eMail: mystery8@gmail.com
+## X-Website: www.atlasmod.com/phpBB3/
+## X-Category: MYADDONS_CATEGORY_MAP
+## X-Date: July 25, 2008
+## X-Help: AtlasQuestHelp
+## RequiredDeps: 
+## OptionalDeps: Atlas, AlphaMap, myAddOns
+## LoadOnDemand: 0
+## SavedVariablesPerCharacter:
+## SavedVariables: AtlasQuest_Options,
+## Dependencies:
+AtlasQuest_InsideFrame.xml
+AtlasQuest.xml
